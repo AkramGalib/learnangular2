@@ -1,0 +1,22 @@
+.custombackgroundfruit1 {
+    background-image: url("../../assets/image/fruit/fruit\ banner\ 1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.customfontstroke1 {
+    -webkit-text-stroke: 1px orangered;
+}
+
+.custom1 {
+    border: 3px solid orangered !important;
+    border-radius: 10px !important;
+    overflow: auto !important;
+    box-shadow: 0 4px orangered;
+}
+
+.custombutton1{
+    background-color: orangered;
+    color: white;
+}
+

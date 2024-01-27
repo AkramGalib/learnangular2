@@ -1,0 +1,20 @@
+* {
+    color: orangered;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+}
+
+.custom1 {
+    border: 1px solid orangered !important;
+    overflow: auto;
+}
+
+.custom:hover,
+.custom1:active {
+    border: 0.5px solid orangered !important;
+    box-shadow: 3px 3px 3px 3px rgb(233, 96, 46) !important;
+
+}

@@ -1,0 +1,34 @@
+
+<hr class="border border-0">
+
+
+<div class="container">
+  <div class="row">
+
+@for(list of customlist2; track list.name){
+<div class="col-3 align-middle custom1 m-3">
+  <div class="card shadow-sm border-0 m-2">
+    <img class="bd-placeholder-img card-img-top border-0"
+      [src]="list.imgurl">
+      <div class="card-title border-0 fw-bolder">
+        {{list.name}}
+      </div>
+      <div class="card-subtitle">
+        
+      <span class="fw-bolder"> &#x9F3;</span> {{list.Price}} Taka per kg
+      </div>
+
+    <div class="card-body border-0">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group align-middle">
+          <button type="button" class="btn btn-sm m-2 rounded text-center custombutton1">Add to cart</button>
+          <button type="button" class="btn btn-sm m-2 rounded custombutton1">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   }
+
+  </div>
+  </div>

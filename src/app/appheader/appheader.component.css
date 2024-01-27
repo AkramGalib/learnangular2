@@ -1,0 +1,13 @@
+header nav a,
+i {
+  color: orangered;
+}
+form{
+  border: 1px solid orangered !important;
+  overflow: auto;
+}
+form:hover, form:active{
+  border:0.5px solid orangered !important;
+  box-shadow: 3px 3px 3px 3px rgb(233, 96, 46) !important;
+
+}
